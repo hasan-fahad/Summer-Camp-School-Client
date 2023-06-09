@@ -9,8 +9,8 @@ const Class = ({item}) => {
           <h2 className="card-title font-bold">{classNames}</h2>
           <p > <span className="font-semibold  rounded-xl px-2">Email:</span> {name}</p>
           <p> <span className="font-semibold  rounded-xl px-2">Department:</span> {department}</p>
-          <p><span className="font-semibold rounded-xl px-2">Classes Taken:</span> {availableSeats}</p>
-          <p><span className="font-semibold  rounded-xl px-2">Classes Names:</span> {price}</p>
+          <p><span className="font-semibold rounded-xl px-2">Available Seats:</span> {availableSeats}</p>
+          <p><span className="font-semibold  rounded-xl px-2">Price:</span> ${price}</p>
           <div className="card-actions justify-end">
             <button className="btn btn-primary">Add to cart</button>
           </div>

@@ -29,7 +29,7 @@ const PopularInstructor = () => {
                 }
             </div>
             <div className="grid">
-            <button className=" btn btn-outline border-0 border-b-4 mt-4" >View </button>
+            <button className=" btn btn-outline border-0 border-b-4 mt-4" >View All Instructor</button>
             </div>
         </section>
     );
