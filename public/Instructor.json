@@ -1,0 +1,110 @@
+
+    [
+      {
+        "id": 1,
+        "image": "../src/assets/Images/Instructor/Instructor-1.jpg",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "department": "Science",
+        "classesTaken": 3,
+        "category": "Popular",
+        "classNames": ["Physics, ", "Chemistry, ", "Biology"],
+        "seeClassesLink": "https://example.com/instructor1-classes"
+      },
+      {
+        "id": 2,
+        "image": "../src/assets/Images/Instructor/Instructor-2.jpg",
+        "name": "Emily Johnson",
+        "email": "emily.johnson@example.com",
+        "department": "Arts",
+        "classesTaken": 5,
+        "category": "Popular",
+        "classNames": ["Painting, ", "Drawing, ", "Sculpture, ", "Art History, ", "Digital Art, "],
+        "seeClassesLink": "https://example.com/instructor2-classes"
+      },
+      {
+        "id": 3,
+        "image": "../src/assets/Images/Instructor/Instructor-3.jpg",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "department": "Commerce",
+        "classesTaken": 2,
+        "category": "Popular",
+        "classNames": ["Economics, ", "Accounting"],
+        "seeClassesLink": "https://example.com/instructor3-classes"
+      },
+      {
+        "id": 4,
+        "image": "../src/assets/Images/Instructor/Instructor-4.jpg",
+        "name": "Sophia Davis",
+        "email": "sophia.davis@example.com",
+        "classesTaken": 2,
+        "department": "Science",
+        "category": "Popular",
+        "classNames": ["Mathematics, ", "Statistics"],
+        "seeClassesLink": "https://example.com/instructor4-classes"
+      },
+      {
+        "id": 5,
+        "image": "../src/assets/Images/Instructor/Instructor-5.jpg",
+        "name": "William Wilson",
+        "email": "william.wilson@example.com",
+        "department": "Science",
+        "classesTaken": 4,
+        "classNames": ["Mathematics, ", "Statistics, ", "Computer Science"],
+        "seeClassesLink": "https://example.com/instructor5-classes"
+      },
+      {
+        "id": 6,
+        "image": "../src/assets/Images/Instructor/Instructor-6.jpg",
+        "name": "Olivia Johnson",
+        "email": "olivia.johnson@example.com",
+        "department": "Arts",
+        "category": "Popular",
+        "classesTaken": 3,
+        "classNames": ["Music Theory, ", "Piano, ", "Voice"],
+        "seeClassesLink": "https://example.com/instructor6-classes"
+      },
+      {
+        "id": 7,
+        "image": "../src/assets/Images/Instructor/Instructor-7.jpg.fdmdownload",
+        "name": "James Lee",
+        "email": "james.lee@example.com",
+        "department": "Commerce",
+        "classesTaken": 1,
+        "category": "Popular",
+        "classNames": ["Marketing"],
+        "seeClassesLink": "https://example.com/instructor7-classes"
+      },
+      {
+        "id": 8,
+        "image": "../src/assets/Images/Instructor/Instructor-8.jpg",
+        "name": "Emma Anderson",
+        "email": "emma.anderson@example.com",
+        "department": "Arts",
+        "classesTaken": 3,
+        "classNames": ["English Literature, ", "Creative Writing, ", "Grammar"],
+        "seeClassesLink": "https://example.com/instructor8-classes"
+      },
+      {
+        "id": 9,
+        "image": "../src/assets/Images/Instructor/Instructor-9.jpg",
+        "name": "Liam Brown",
+        "email": "liam.brown@example.com",
+        "department": "Science",
+        "classesTaken": 2,
+        "classNames": ["Chemistry, ", "Biology"],
+        "seeClassesLink": "https://example.com/instructor9-classes"
+      },
+      {
+        "id": 10,
+        "image": "../src/assets/Images/Instructor/Instructor-10.jpg",
+        "name": "Ava Wilson",
+        "email": "ava.wilson@example.com",
+        "department": "Arts",
+        "classNames": ["Dance, ", "Yoga"],
+        "seeClassesLink": "https://example.com/instructor10-classes"
+      }
+    ]
+  
+  

@@ -1,0 +1,290 @@
+
+[
+    {
+      "id": 1,
+      "image": "../src/assets/Images/Instructor/Instructor-1.jpg",
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "department": "Science",
+      "category": "Popular",
+      "availableSeats": 60,
+      "price": "110",
+      "classNames": "Physics"
+    },
+    
+    {
+        "id": 2,
+        "image": "../src/assets/Images/Instructor/Instructor-1.jpg",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "department": "Science",
+        "availableSeats": 35,
+      "price": "90",
+        "classNames": "Chemistry"
+      },
+      
+    {
+        "id": 3,
+        "image": "../src/assets/Images/Instructor/Instructor-1.jpg",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "department": "Science",
+        "availableSeats": 58,
+      "price": "90",
+        "classNames": "Biology"
+      },
+    {
+      "id": 4,
+      "image": "../src/assets/Images/Instructor/Instructor-2.jpg",
+      "name": "Emily Johnson",
+      "email": "emily.johnson@example.com",
+      "department": "Arts",
+      "category": "Popular",
+      "availableSeats": 60,
+      "price": "45",
+      "classNames": "Painting"
+      
+    },
+    
+    {
+        "id": 5,
+        "image": "../src/assets/Images/Instructor/Instructor-2.jpg",
+        "name": "Emily Johnson",
+        "email": "emily.johnson@example.com",
+        "department": "Arts",
+        "availableSeats": 55,
+      "price": "80",
+        "classNames": "Drawing"
+        
+      },
+      
+    {
+        "id": 6,
+        "image": "../src/assets/Images/Instructor/Instructor-2.jpg",
+        "name": "Emily Johnson",
+        "email": "emily.johnson@example.com",
+        "department": "Arts",
+        "availableSeats": 25,
+      "price": "60",
+        "classNames": "Sculpture"
+        
+      },
+      
+    {
+        "id": 7,
+        "image": "../src/assets/Images/Instructor/Instructor-2.jpg",
+        "name": "Emily Johnson",
+        "email": "emily.johnson@example.com",
+        "department": "Arts",
+        "availableSeats": 35,
+      "price": "70",
+        "classNames": "Art History"
+        
+      },
+      
+    {
+        "id": 8,
+        "image": "../src/assets/Images/Instructor/Instructor-2.jpg",
+        "name": "Emily Johnson",
+        "email": "emily.johnson@example.com",
+        "department": "Arts",
+        "availableSeats": 50,
+      "price": "60",
+        "classNames": "Digital Art"
+        
+      },
+    {
+      "id": 9,
+      "image": "../src/assets/Images/Instructor/Instructor-3.jpg",
+      "name": "Michael Brown",
+      "email": "michael.brown@example.com",
+      "department": "Commerce",
+      "category": "Popular",
+      "availableSeats": 35,
+      "price": "70",
+      "classNames": "Economics"
+      
+    },
+    
+    {
+        "id": 10,
+        "image": "../src/assets/Images/Instructor/Instructor-3.jpg",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "department": "Commerce",
+        "availableSeats": 35,
+      "price": "55",
+        "classNames": "Accounting"
+        
+      },
+    {
+      "id": 11,
+      "image": "../src/assets/Images/Instructor/Instructor-4.jpg",
+      "name": "Sophia Davis",
+      "email": "sophia.davis@example.com",
+      "department": "Science",
+      "category": "Popular",
+      "availableSeats": 55,
+      "price": "90",
+      "classNames": "Mathematics"
+   },
+   {
+    "id": 12,
+    "image": "../src/assets/Images/Instructor/Instructor-4.jpg",
+    "name": "Sophia Davis",
+    "email": "sophia.davis@example.com",
+    "department": "Science",
+    "availableSeats": 65,
+      "price": "80",
+    "classNames": "Statistics"
+ },
+    {
+      "id": 13,
+      "image": "../src/assets/Images/Instructor/Instructor-5.jpg",
+      "name": "William Wilson",
+      "email": "william.wilson@example.com",
+      "department": "Science",
+      "availableSeats": 50,
+      "price": "65",
+      "classNames": "Mathematics"
+    },
+    
+    {
+        "id": 14,
+        "image": "../src/assets/Images/Instructor/Instructor-5.jpg",
+        "name": "William Wilson",
+        "email": "william.wilson@example.com",
+        "department": "Science",
+        "availableSeats": 35,
+        "price": "55",
+        "classNames": "Statistics"
+      },
+      
+    {
+        "id": 15,
+        "image": "../src/assets/Images/Instructor/Instructor-5.jpg",
+        "name": "William Wilson",
+        "email": "william.wilson@example.com",
+        "department": "Science",
+        "availableSeats": 25,
+        "price": "70",
+        "classNames": "Computer Science"
+      },
+    {
+      "id": 16,
+      "image": "../src/assets/Images/Instructor/Instructor-6.jpg",
+      "name": "Olivia Johnson",
+      "email": "olivia.johnson@example.com",
+      "department": "Arts",
+      "category": "Popular",
+      "availableSeats": 45,
+        "price": "43",
+      "classNames": "Music Theory"
+    },
+    
+    {
+        "id": 17,
+        "image": "../src/assets/Images/Instructor/Instructor-6.jpg",
+        "name": "Olivia Johnson",
+        "email": "olivia.johnson@example.com",
+        "department": "Arts",
+        "availableSeats": 45,
+        "price": "37",
+        "classNames": "Piano"
+      },
+      
+    {
+        "id": 18,
+        "image": "../src/assets/Images/Instructor/Instructor-6.jpg",
+        "name": "Olivia Johnson",
+        "email": "olivia.johnson@example.com",
+        "department": "Arts",
+        "availableSeats": 45,
+        "price": "60",
+        "classNames": "Voice"
+      },
+    {
+      "id": 19,
+      "image": "../src/assets/Images/Instructor/Instructor-7.jpg.fdmdownload",
+      "name": "James Lee",
+      "email": "james.lee@example.com",
+      "department": "Commerce",
+      "category": "Popular",
+      "availableSeats": 65,
+        "price": "70",
+      "classNames": "Marketing"
+    },
+    {
+      "id": 20,
+      "image": "../src/assets/Images/Instructor/Instructor-8.jpg",
+      "name": "Emma Anderson",
+      "email": "emma.anderson@example.com",
+      "department": "Arts",
+      "availableSeats": 42,
+        "price": "57",
+      "classNames": "English Literature"
+    },
+    
+    {
+        "id": 21,
+        "image": "../src/assets/Images/Instructor/Instructor-8.jpg",
+        "name": "Emma Anderson",
+        "email": "emma.anderson@example.com",
+        "department": "Arts",
+        "availableSeats": 45,
+        "price": "55",
+        "classNames": "Creative Writing"
+      },
+      
+    {
+        "id": 22,
+        "image": "../src/assets/Images/Instructor/Instructor-8.jpg",
+        "name": "Emma Anderson",
+        "email": "emma.anderson@example.com",
+        "department": "Arts",
+        "availableSeats": 50,
+        "price": "47",
+        "classNames": "Grammar"
+      },
+    {
+      "id": 23,
+      "image": "../src/assets/Images/Instructor/Instructor-9.jpg",
+      "name": "Liam Brown",
+      "email": "liam.brown@example.com",
+      "department": "Science",
+      "availableSeats": 35,
+        "price": "40",
+      "classNames": "Chemistry"
+    },
+    {
+        "id": 24,
+        "image": "../src/assets/Images/Instructor/Instructor-9.jpg",
+        "name": "Liam Brown",
+        "email": "liam.brown@example.com",
+        "department": "Science",
+        "availableSeats": 40,
+        "price": "45",
+        "classNames": "Biology"
+      },
+    {
+      "id": 25,
+      "image": "../src/assets/Images/Instructor/Instructor-10.jpg",
+      "name": "Ava Wilson",
+      "email": "ava.wilson@example.com",
+      "department": "Arts",
+      "availableSeats": 30,
+        "price": "35",
+      "classNames": "Yoga"
+    },
+    {
+        "id": 26,
+        "image": "../src/assets/Images/Instructor/Instructor-10.jpg",
+        "name": "Ava Wilson",
+        "email": "ava.wilson@example.com",
+        "department": "Arts",
+        "availableSeats": 20,
+        "price": "25",
+        "classNames": "Dance"
+      }
+  ]
+
