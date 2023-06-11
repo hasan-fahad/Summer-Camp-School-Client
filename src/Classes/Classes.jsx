@@ -5,16 +5,24 @@ import SectionTitle from "../Home/SectionTitle/SectionTitle";
 import useClass from "../Hooks/useClass";
 import classImg from "../assets/Images/Classes/Classes-bg.jpg"
 import { Helmet } from "react-helmet-async";
+import { useParams } from "react-router-dom";
+import { Tab } from "react-tabs";
+import { useState } from "react";
 
 
 const Classes = () => {
     const [classMenu] = useClass();
+    const categories = ['Science', 'Arts', 'Commerce'];
+    const {department} =useParams();
+    const initialIndex = categories.indexOf(department);
+    const [tabIndex, setIndex] = useState(initialIndex);
+
     const science = classMenu.filter (item => item.department ==='Science')
     const arts = classMenu.filter (item => item.department ==='Arts')
     const commerce = classMenu.filter (item => item.department ==='Commerce')
    
     return (
-        <section className="mb-5">
+        <section className="mb-5" >
              <Helmet>
                 <title>Academia | Classes</title>
             </Helmet>
@@ -44,7 +52,8 @@ const Classes = () => {
 
 
             </SectionTitle>
-            <h1 className="text-center mb-5 text-5xl font-bold" title="science" >Science</h1>
+            <Tab defaultIndex={tabIndex} onSelect={(index) => setIndex(index)}>
+            <h1 className="text-center mb-5 text-5xl font-bold" title="Science"  >Science</h1>
             <div className=" mx-12 mt-12 grid md:grid-cols-3 gap-4">
                 
                 {
@@ -55,7 +64,8 @@ const Classes = () => {
                     </Class>)
                 }
             </div>
-            <h1 className="text-center mb-5 text-5xl font-bold" title="arts">Arts</h1>
+            
+            <h1 className="text-center mb-5 text-5xl font-bold" title="Arts">Arts</h1>
             <div className=" mx-12 mt-12 grid md:grid-cols-3 gap-4">
                 
                 {
@@ -66,7 +76,7 @@ const Classes = () => {
                     </Class>)
                 }
             </div>
-            <h1 className="text-center mb-5 text-5xl font-bold" title="commerce">Commerce</h1>
+            <h1 className="text-center mb-5 text-5xl font-bold" title="Commerce">Commerce</h1>
             <div className=" mx-12 mt-12 grid md:grid-cols-3 gap-4">
                 
                 {
@@ -77,6 +87,7 @@ const Classes = () => {
                     </Class>)
                 }
             </div>
+            </Tab>
 
            
             
