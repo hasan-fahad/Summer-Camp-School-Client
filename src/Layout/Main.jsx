@@ -6,12 +6,12 @@ import Footer from "../Home/Footer/Footer";
 const Main = () => {
     const location = useLocation();
     console.log(location);
-    const noHeaderFooter = location.pathname.includes('login');
+    const noHeaderFooter = location.pathname.includes('loginpage') || location.pathname.includes('register');
     return (
         <div>
             { noHeaderFooter || <NavBar></NavBar>}
             <Outlet></Outlet>
-            <Footer></Footer>
+            { noHeaderFooter || <Footer></Footer>}
         </div>
     );
 };
