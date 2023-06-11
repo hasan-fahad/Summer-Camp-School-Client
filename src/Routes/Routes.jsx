@@ -22,7 +22,11 @@ import Classes from "../Classes/Classes";
         {
             path: "classes",
             element:<Classes></Classes>
-        }
+        },
+        {
+          path: "classes/:category",
+          element:<Classes></Classes>
+      }
       ]
     },
   ]);

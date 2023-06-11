@@ -2,8 +2,9 @@
 
 const Instructor = ({item}) => {
     const {image, name, email, department,classesTaken,classNames  } =item;
+    const isBackgroundRed = true;
     return (
-        <div className="card w-96 glass">
+        <div style={{backgroundColor: isBackgroundRed ? 'red' : 'blue',}} className=" text-white mb-5 card w-96 glass">
   <figure><img className="h-[300px]" src={image} alt="car!"/></figure>
   <div className="card-body">
     <h2 className="card-title font-bold">{name}</h2>
