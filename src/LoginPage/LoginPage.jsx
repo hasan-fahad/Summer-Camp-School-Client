@@ -76,7 +76,7 @@ const LoginPage = () => {
                         </label>
                         <input type="password" placeholder="password" name='password' className="input input-bordered" required/>
                         <label className="label">
-                            <p>New To Le Alimento Please <Link to='/register'><button className="btn btn-link">Register</button></Link></p>
+                            <p>New To Academia Please <Link to='/register'><button className="btn btn-link">Register</button></Link></p>
                         </label>
                         </div>
                             <p className='text-red-800'>{error}</p>
