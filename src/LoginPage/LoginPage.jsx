@@ -56,7 +56,7 @@ const LoginPage = () => {
         .catch(error => console.log('error', error.message))
     }
     return (
-            <div className="hero bg-base-200">
+            <div className="hero login-page bg-base-200">
                     <div className="hero-content flex-col ">
                     <div className="text-center lg:text-left">
                     <h1 className="text-5xl font-bold">Login now!</h1>
