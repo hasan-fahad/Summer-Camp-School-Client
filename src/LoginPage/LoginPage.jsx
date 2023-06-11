@@ -1,10 +1,11 @@
 import React, { useContext, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
-import { signInWithPopup } from 'firebase/auth';
+
 import { FaGithub, FaGoogle } from 'react-icons/fa';
 import './LoginPage.css'
 import { AuthContext, auth } from '../AuthProvider/AuthProvider';
+import { signInWithPopup } from 'firebase/auth';
 
 const LoginPage = () => {
     const {signIn, provider, githubProvider} = useContext(AuthContext)
