@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Instructor from "../Home/PopularInstructor/Instructor";
 import SectionTitle from "../Home/SectionTitle/SectionTitle";
 import useMenu from "../Hooks/useMenu";
@@ -13,6 +14,9 @@ const Instructors = () => {
 
     return (
         <section className="mt-8" >
+             <Helmet>
+                <title>Academia | Instructors</title>
+            </Helmet>
             
             <div>
             <SectionTitle 

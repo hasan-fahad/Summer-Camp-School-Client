@@ -8,7 +8,7 @@ const useClass = () => {
 
     // FOR CLASSES
     useEffect (()=> {
-        fetch('Classes.json')
+        fetch('http://localhost:5000/classes')
         .then(res => res.json())
         .then(data => {
             setClassMenu(data);

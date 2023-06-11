@@ -4,6 +4,7 @@ import Class from "../Home/PopularClass/Class";
 import SectionTitle from "../Home/SectionTitle/SectionTitle";
 import useClass from "../Hooks/useClass";
 import classImg from "../assets/Images/Classes/Classes-bg.jpg"
+import { Helmet } from "react-helmet-async";
 
 
 const Classes = () => {
@@ -14,6 +15,9 @@ const Classes = () => {
    
     return (
         <section className="mb-5">
+             <Helmet>
+                <title>Academia | Classes</title>
+            </Helmet>
             
             <Parallax
         blur={{ min: -50, max: 50 }}
