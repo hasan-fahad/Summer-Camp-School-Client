@@ -8,7 +8,7 @@ const useReview = () => {
 
    // FOR CLASSES
    useEffect (()=> {
-       fetch('Reviews.json')
+       fetch('http://localhost:5000/reviews')
        .then(res => res.json())
        .then(data => {
            setReview(data);
