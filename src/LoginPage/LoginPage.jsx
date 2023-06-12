@@ -6,6 +6,7 @@ import { FaGithub, FaGoogle } from 'react-icons/fa';
 import './LoginPage.css'
 import { AuthContext, auth } from '../AuthProvider/AuthProvider';
 import { signInWithPopup } from 'firebase/auth';
+import { Helmet } from 'react-helmet-async';
 
 const LoginPage = () => {
     const {signIn, provider, githubProvider} = useContext(AuthContext)
@@ -57,6 +58,9 @@ const LoginPage = () => {
     }
     return (
             <div className="hero login-page bg-base-200">
+                <Helmet>
+                <title>Academia | Login</title>
+            </Helmet>
                     <div className="hero-content flex-col ">
                     <div className="text-center lg:text-left">
                     <h1 className="text-5xl text-white font-bold">Login now!</h1>

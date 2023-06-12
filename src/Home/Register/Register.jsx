@@ -4,6 +4,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 import './Register.css'
 import { useForm } from 'react-hook-form';
+import { Helmet } from 'react-helmet-async';
+import Swal from 'sweetalert2';
 
 
 const Register = () => {
@@ -35,7 +37,11 @@ const Register = () => {
             })
     };
     return (
+        
         <div className="hero register bg-base-200">
+             <Helmet>
+                <title>Academia | Register Now</title>
+            </Helmet>
             <div className="hero-content flex-col ">
                 <div className="text-center lg:text-left">
                     <h1 className="text-5xl text-white font-bold">Register now!</h1>
