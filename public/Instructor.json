@@ -2,7 +2,7 @@
     [
       {
         "id": 1,
-        "image": "../src/assets/Images/Instructor/Instructor-1.jpg",
+        "image": "https://i.ibb.co/n12Rk60/Instructor-1.jpg",
         "name": "John Smith",
         "email": "john.smith@example.com",
         "department": "Science",
@@ -13,7 +13,7 @@
       },
       {
         "id": 2,
-        "image": "../src/assets/Images/Instructor/Instructor-2.jpg",
+        "image": "https://i.ibb.co/WPS6bnv/Instructor-2.png",
         "name": "Emily Johnson",
         "email": "emily.johnson@example.com",
         "department": "Arts",
@@ -24,7 +24,7 @@
       },
       {
         "id": 3,
-        "image": "../src/assets/Images/Instructor/Instructor-3.jpg",
+        "image": "https://i.ibb.co/my85NHv/Instructor-3.jpg",
         "name": "Michael Brown",
         "email": "michael.brown@example.com",
         "department": "Commerce",
@@ -35,7 +35,7 @@
       },
       {
         "id": 4,
-        "image": "../src/assets/Images/Instructor/Instructor-4.jpg",
+        "image": "https://i.ibb.co/VJN2H1s/Instructor-4.jpg",
         "name": "Sophia Davis",
         "email": "sophia.davis@example.com",
         "classesTaken": 2,
@@ -46,7 +46,7 @@
       },
       {
         "id": 5,
-        "image": "../src/assets/Images/Instructor/Instructor-5.jpg",
+        "image": "https://i.ibb.co/mHBQSWn/Instructor-5.jpg",
         "name": "William Wilson",
         "email": "william.wilson@example.com",
         "department": "Science",
@@ -56,7 +56,7 @@
       },
       {
         "id": 6,
-        "image": "../src/assets/Images/Instructor/Instructor-6.jpg",
+        "image": "https://i.ibb.co/MMYJq7t/Instructor-6.webp",
         "name": "Olivia Johnson",
         "email": "olivia.johnson@example.com",
         "department": "Arts",
@@ -67,7 +67,7 @@
       },
       {
         "id": 7,
-        "image": "../src/assets/Images/Instructor/Instructor-7.jpg.fdmdownload",
+        "image": "https://i.ibb.co/kKj7710/Instructor-7.jpg",
         "name": "James Lee",
         "email": "james.lee@example.com",
         "department": "Commerce",
@@ -78,7 +78,7 @@
       },
       {
         "id": 8,
-        "image": "../src/assets/Images/Instructor/Instructor-8.jpg",
+        "image": "https://i.ibb.co/p2ByjxZ/Instructor-8.jpg",
         "name": "Emma Anderson",
         "email": "emma.anderson@example.com",
         "department": "Arts",
@@ -88,7 +88,7 @@
       },
       {
         "id": 9,
-        "image": "../src/assets/Images/Instructor/Instructor-9.jpg",
+        "image": "https://i.ibb.co/zPYXK43/Instructor-9.jpg",
         "name": "Liam Brown",
         "email": "liam.brown@example.com",
         "department": "Science",
@@ -98,7 +98,7 @@
       },
       {
         "id": 10,
-        "image": "../src/assets/Images/Instructor/Instructor-10.jpg",
+        "image": "https://i.ibb.co/Y3zwyws/Instructor-10.jpg",
         "name": "Ava Wilson",
         "email": "ava.wilson@example.com",
         "department": "Arts",

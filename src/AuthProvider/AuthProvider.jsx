@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react';
 import { GithubAuthProvider, GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut, updateProfile } from "firebase/auth";
 import app from '../firebase/firebase.config';
 import { createContext } from 'react';
+import axios from 'axios';
 
 export const AuthContext = createContext(null);
 export const auth = getAuth(app)
@@ -30,15 +31,29 @@ const AuthProvider = ({children}) => {
         return signOut(auth);
     }
 
-    useEffect(()=>{
-      const unsubscribe = onAuthStateChanged(auth, loggedUser => {
-            setUser(loggedUser)
-            setLoading(false)
-        })
-        return () =>{ 
-            unsubscribe()
+    useEffect(()=>{ const unsubscribe = onAuthStateChanged(auth, currentUser => {
+        setUser(currentUser);
+        console.log('current user', currentUser);
+
+        // get and set token
+        if(currentUser){
+            axios.post('https://summer-camp-school-server-bay.vercel.app/jwt', {email: currentUser.email})
+            .then(data =>{
+                
+                localStorage.setItem('access-token', data.data.token)
+                setLoading(false);
+            })
         }
-    },[])
+        else{
+            localStorage.removeItem('access-token')
+        }
+
+        
+    });
+    return () => {
+        return unsubscribe();
+    }
+}, [])
     const updateUserData = (user, name, photoURL)=>{
         updateProfile(user,{
           displayName:name, photoURL: photoURL

@@ -8,7 +8,7 @@ const useReview = () => {
 
    // FOR CLASSES
    useEffect (()=> {
-       fetch('http://localhost:5000/reviews')
+       fetch('https://summer-camp-school-server-bay.vercel.app/reviews')
        .then(res => res.json())
        .then(data => {
            setReview(data);

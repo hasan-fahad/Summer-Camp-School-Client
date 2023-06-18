@@ -9,7 +9,7 @@ const useMenu = () => {
     
 // FOR INSTRUCTORS
     useEffect (()=> {
-        fetch('http://localhost:5000/instructors')
+        fetch('https://summer-camp-school-server-bay.vercel.app/instructors')
         .then(res => res.json())
         .then(data => {
             setMenu(data);
